@@ -8,14 +8,15 @@
     <style>
         body{
             color: #333;
-            text-align: center;
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 16px;
+            font-size: 18px;
+            background: #1e1f24;
+            margin: 0;
+            padding: 0;
         }
         #container{
             width: 70%;
             padding: 1em;
-            text-align: center;
             border: 1px solid black;
             margin: 0 auto;
         }
@@ -30,12 +31,17 @@
             padding: 0.5em;
             font-weight: bold;
         }
+        #cabecera #logo{
+            width: 20px;
+            vertical-align: middle;
+        }
         #cabecera #tagline{
             padding: 0 0 0 1em;
             font-weight: normal;
             font-size: 0.8em;
         }
         #post{
+            background: white;
             padding: 1em;
         }
     </style>
@@ -43,6 +49,7 @@
 <body>
     <div id="container">
       <div id="cabecera">
+        <img id="logo" src="./imagenes/dragon.png" alt="dragon">
         Superblog <span id="tagline">Tu blog de cabecera</span>
       </div>
       <div id="post"> 
